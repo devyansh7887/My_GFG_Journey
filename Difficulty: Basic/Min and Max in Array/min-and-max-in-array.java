@@ -4,13 +4,13 @@ class Solution {
         int min = arr[a];
         for(int i =0;i<arr.length;i++){
             if(arr[i]<min){
-                min = arr[i];
+                min = arr[i]; // return the minimum elements
             }
         }
         int max = arr[a];
         for(int j = 0;j<arr.length;j++){
             if(arr[j]>max){
-                max = arr[j];
+                max = arr[j];// returns the maximum element
             }
         }
         return new Pair<>(min, max);
