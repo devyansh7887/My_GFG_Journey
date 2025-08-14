@@ -12,7 +12,7 @@ class Solution {
             i++;
             fact = fact * i;  // compute next factorial
         }
-        
+        //
         return result;
     }
 }
