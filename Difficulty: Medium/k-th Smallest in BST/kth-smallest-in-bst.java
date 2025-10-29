@@ -9,8 +9,8 @@ class Node {
         left = right = null;
     }
 }
-*/
-
+*///
+//
 import java.util.Stack;
 
 class Solution {
@@ -26,7 +26,7 @@ class Solution {
                 st.push(cur);
                 cur = cur.left;
             }
-            
+          //  
             cur = st.pop();
             k--; // visited one node (in-order)
             if (k == 0) return cur.data;
